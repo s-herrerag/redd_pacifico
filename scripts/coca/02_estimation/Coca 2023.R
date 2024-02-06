@@ -26,15 +26,16 @@ if('carolinacastroosorio'%in%getwd()){
 } else{if('santiagoherreragarcia'%in%getwd()){
   inputs<-'/Users/santiagoherreragarcia/Library/CloudStorage/OneDrive-Bibliotecascompartidas:Universidaddelosandes/Carolina Castro Osorio - REDD_CALIMA_VCS_docu/2023/Base_trabajo_Santi/inputs2'
   outputs<-'/Users/santiagoherreragarcia/Library/CloudStorage/OneDrive-Bibliotecascompartidas:Universidaddelosandes/Carolina Castro Osorio - REDD_CALIMA_VCS_docu/2023/Base_trabajo_Santi/outputs2'
-  }}
+} else{if('brigittecastaneda'%in%getwd()){
+  inputs<-'/Users/brigittecastaneda/Library/CloudStorage/OneDrive-Universidaddelosandes/REDD+ bases/Inputs'
+  outputs<-'/Users/brigittecastaneda/Library/CloudStorage/OneDrive-Universidaddelosandes/REDD+ bases/Outputs Estimaciones'
+}}}
+
 
 inputs<-'/Users/carolinacastroosorio/Library/CloudStorage/OneDrive-UniversidaddelosAndes/REDD+ bases/Outputs Bases'
 outputs<-'/Users/carolinacastroosorio/Library/CloudStorage/OneDrive-UniversidaddelosAndes/REDD+ bases/Outputs Estimaciones'
 setwd(inputs)
-inputs<-'/Users/USER/Library/CloudStorage/OneDrive-Universidaddelosandes/REDD+ bases/Inputs'
-outputs<-'/Users/USER/Library/CloudStorage/OneDrive-Universidaddelosandes/REDD+ bases/Outputs Estimaciones'
 
-setwd(inputs)
 
 #panel_cc<-read_parquet("base_coca.parquet")
 base_coca<-read_parquet("base_coca.parquet")%>%
