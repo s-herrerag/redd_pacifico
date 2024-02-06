@@ -1,7 +1,8 @@
 #####
 #VErsión 2. Coca y REDD+
 #Evaluación del proyecto REDD+ en el Pacífico
-#####
+#####Ensayo GitHub
+
 
 #Librerias
 pacman::p_load(tidyverse,stargazer,modelsummary,haven,lmtest,fastDummies,
